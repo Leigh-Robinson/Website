@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A66C2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/*old code*/
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  padding: 5px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#banner {
+  text-align: center;
+  padding-top: 60px;
+  width: 100%;
+}
+
+codingImg {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#hearts {
+  color: #ff5c81;
+}
+
+/* Article settings and pre-transition */
+.clickOptions {
+  flex: 1;
+  border: solid 2px;
+  border-color: #495d56;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+/* Article pseudo-class */
+.clickOptions:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01)
+}
+
+#intro {
+  background-color: #f3f2ef;
+  width: 100%;
+  padding: 50px 10px;
+  text-align: center;
+}
+
+#intro h2 {
+  color: #0A66C2;
+  padding: 10px;
+}
+
+#hireMe {
+  text-align: center;
+}
+
+#latestWork {
+  background-color: #f1ece5;
+  
+}
+
+#latestWork h2 {
+  color:#ff5c81;
+  text-align: center;
+}
+
+#tools {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  margin: 15px;
+}
+
+footer div {
+  flex: 1;
+  color: #495d56;
+}
+
+footer div img {
+  max-width: 15%;
+}
