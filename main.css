@@ -6,7 +6,7 @@
   font-family: "Quicksand";
 }
 
-ul {
+nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,11 +17,11 @@ ul {
   width: 100%;
 }
 
-li {
+a {
   float: left;
 }
 
-li a {
+a {
   display: block;
   color: white;
   text-align: center;
@@ -29,7 +29,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+a:hover:not(.active) {
   background-color: #111;
 }
 
@@ -38,11 +38,9 @@ li a:hover:not(.active) {
 }
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+  nav.topnav li.right, 
+  nav.topnav li {float: none;}
 }
-
-/*old code*/
 
 h1 {
   font-size: 3rem;
@@ -82,25 +80,6 @@ img {
   color: #ff5c81;
 }
 
-/* Article settings and pre-transition */
-.clickOptions {
-  flex: 1;
-  border: solid 2px;
-  border-color: #495d56;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 15px;
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
-  transition: all 0.2s;
-  cursor: pointer;
-}
-
-/* Article pseudo-class */
-.clickOptions:hover {
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
-  transform: scale(1.01)
-}
-
 #intro {
   background-color: #f3f2ef;
   width: 100%;
@@ -114,12 +93,13 @@ img {
 }
 
 #hireMe {
+  width: 100%;
   text-align: center;
 }
 
 #latestWork {
   background-color: #f1ece5;
-  
+  width: 100%;
 }
 
 #latestWork h2 {
@@ -128,6 +108,12 @@ img {
 }
 
 #tools {
+  width: 100%;
+  padding: 50px 10px;
+  text-align: center;
+}
+
+#tools h2 {
   text-align: center;
 }
 
