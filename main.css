@@ -50,8 +50,12 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  padding: 3px;
+}
+
 p {
-  padding: 5px;
+ padding: 3px;
 }
 
 section {
@@ -62,6 +66,7 @@ section {
 #banner {
   text-align: center;
   padding-top: 60px;
+  padding-bottom: 15px;
   width: 100%;
 }
 
@@ -76,30 +81,69 @@ img {
   width: 50%;
 }
 
-#hearts {
-  color: #ff5c81;
+#banner p {
+  font-size: 2rem;
 }
 
 #intro {
   background-color: #f3f2ef;
   width: 100%;
-  padding: 50px 10px;
+  padding: 15px 10px;
   text-align: center;
 }
 
 #intro h2 {
   color: #0A66C2;
   padding: 10px;
+  font-size: 2rem;
 }
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Article settings and pre-transition */
+.card {
+  flex: 1;
+  background-color: #01beff;
+  border: solid 2px;
+  border-color: #495d56;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  max-width: 100%;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+/* Article pseudo-class */
+ .card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01)
+}
+
+#promoContent {
+  font-size: 2.3rem;
+}
+
 
 #hireMe {
   width: 100%;
+  padding: 15px;
   text-align: center;
+}
+
+#hireMe h2 {
+  font-size: 2rem;
 }
 
 #latestWork {
   background-color: #f1ece5;
   width: 100%;
+  padding: 15px;
+  margin-top: 20px;
 }
 
 #latestWork h2 {
