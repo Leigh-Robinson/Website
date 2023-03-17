@@ -1,5 +1,6 @@
 h1 {
   font-size: 3rem;
+  color: #333333;
 }
 
 h2 {
@@ -8,11 +9,13 @@ h2 {
 
 h3 {
   padding: 3px;
+  color: #757575;
 }
 
 p {
  font-size: 1rem;
  padding: 3px;
+ color: #757575;
 }
 
 section {
@@ -22,9 +25,15 @@ section {
 
 #banner {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 15px;
+  padding-top: 80px;
+  padding-bottom: 3rem;
   width: 100%;
+  box-shadow: 0 3px 2px lightgray;
+  z-index: 1;
+}
+
+#banner p {
+  color: #757575;
 }
 
 codingImg {
@@ -43,16 +52,10 @@ img {
 }
 
 #intro {
-  background-color: #f3f2ef;
+  background-color: #fafafa;
   width: 100%;
   padding: 15px 10px;
   text-align: center;
-}
-
-#intro h2 {
-  color: #0A66C2;
-  padding: 10px;
-  font-size: 2rem;
 }
 
 .card {
@@ -63,71 +66,47 @@ img {
 /* Article settings and pre-transition */
 .card {
   flex: 1;
-  background-color: #01beff;
-  border: solid 2px;
-  border-color: #495d56;
-  border-radius: 10px;
+  background-color: #fafafa;
+  border: solid 1px;
+  border-color: lightgray;
+  border-radius: 5px;
   padding: 10px;
   margin: 15px;
   max-width: 100%;
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
-  transition: all 0.2s;
+  box-shadow: 0px 2px 3px lightgray;
+  transition: all 0.4s;
   cursor: pointer;
 }
 
 /* Article pseudo-class */
  .card:hover {
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
-  transform: scale(1.01)
-}
-
-#promoContent {
-  font-size: 2.3rem;
-}
-
-
-#hireMe {
-  width: 100%;
-  padding: 15px;
-  text-align: center;
-}
-
-#hireMe h2 {
-  font-size: 2rem;
+  box-shadow: 0px 3px 4px darkgray;
 }
 
 #latestWork {
-  background-color: #f1ece5;
-  width: 100%;
-  padding: 15px;
-  margin-top: 20px;
+  padding-top: 3.5rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  background-color: #fafafa;
 }
 
 #latestWork h2 {
-  color:#ff5c81;
-  text-align: center;
+  font-size: 1.5rem;
+  color: #757575;
 }
 
-#tools {
-  width: 100%;
-  padding: 50px 10px;
-  text-align: center;
-}
-
-#tools h2 {
-  text-align: center;
+#latestWorkCards {
+  padding-bottom: 8rem;
+  background-color: #fafafa;
+  box-shadow: 0 3px 2px lightgrey;
+  position: relative;
+  z-index: 1;
 }
 
 footer {
   display: flex;
-  margin: 15px;
-}
-
-footer div {
-  flex: 1;
-  color: #495d56;
-}
-
-footer div img {
-  max-width: 15%;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-bottom: 0.5px solid lightgray;
+  color: #757575;
 }
