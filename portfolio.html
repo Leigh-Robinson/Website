@@ -4,18 +4,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
     <script src="main.js"></script>
 </head>
 <body>
     <nav>
-        <ul class="container">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
     </nav>
+    <main>
+        <section >
+            <article id="banner">
+                <div id="codingImg"><img src="img/coding.gif" alt="Man programming computer"></div>
+                <h1>Hi, I'm Leigh Robinson</h1>
+                <p>Front End Web Developer living in Cambridge, UK</p>
+            </article>
+        </section>
+        <div id="latestWork">
+            <h2>Portfolio</h2>
+        </div>
+        <section id="latestWorkCards">
+            <article class="card" id="recruiters">
+                <h3>For Recruiters</h3>
+                <p>Checkout my Front End Developer C.V. Including the dev tools I use, experience, projects and code. For recruiters.</p>
+            </article>
+            <article class="card" id="services">
+                <h3>Looking to buy or improve your website?</h3>
+                <p>I can plan, create and code your website. Learn more about my services.</p>
+            </article>
+            <article class="card" id="charity">
+                <h3>Charity</h3>
+                <p>If you're a charitable or social organisation in need of a website or app. For charities.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h1>About this website</h1>
+                <p>
+                    This website was hand-coded with HTML, CSS and JavaScript. It was 
+                    really fun to build. I will convert it into a React website once I 
+                    am more confident with React.
+                </p>
+                <h2>Challenges</h2>
+                <h3>Structuring files</h3>
+                <p> As a first solo project building the website has brought many challenges.
+                    The file structure quickly evolved when I realised I would be reusing quite
+                    a bit of code such as the navigation bar. I realised that by splitting the css
+                    files I could seperate the reusable code, contain it and control it independantly.
+                </p>
+            </article>
+        </section>
+    </main>
     <div id="intro">Portfolio</div>
 </body>
 </html>
