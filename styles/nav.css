@@ -12,7 +12,6 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #111111;
   position: fixed;
   top: 0;
   width: 100%;
@@ -24,7 +23,6 @@ nav a {
   margin-right: 20px;
   text-align: center; 
   text-decoration: none;
-  color: white;
   padding: 30px 16px;
 }
 
@@ -33,7 +31,7 @@ nav a:first-child {
 }
 
 a:hover:not(.active) {
-  background-color: #111;
+  color: green;
 }
 
 .active {
