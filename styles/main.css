@@ -24,6 +24,28 @@ section {
   display: flex;
   flex-wrap: wrap;
 }
+ 
+/*Template for section 1 of all pages*/
+.section1 { 
+  border-bottom: solid 1px darkgray;
+}
+
+/*Template for section 2 of all pages*/
+.section2 {
+  padding-bottom: 7rem;
+  position: relative;
+  background-color:#fafafa;
+  border-bottom: solid 1px black;
+}
+
+/*Template for section 3 of all pages*/
+.section3 {
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
 
 section article h3 {
   padding-top: 30px;
@@ -70,7 +92,7 @@ img {
   padding: 10px;
   margin: 10px;
   max-width: 100%;
-  box-shadow: 0px 1px 2px black;
+  box-shadow: 0px 1px 2px #3066cb;
   transition: all 0.4s;
   cursor: pointer;
   background-color: white;
@@ -78,29 +100,14 @@ img {
 
 /* Article pseudo-class */
  .card:hover {
-  box-shadow: 0px 4px 5px black;
+  box-shadow: 0px 4px 5px #3066cb;
 }
 
 #latestWork {
   padding-top: 3.5rem;
   padding-bottom: 2rem;
   text-align: center;
-  background-color: #3066cb;
-  color: white;
-}
-
-#latestWorkCards {
-  padding-bottom: 8rem;
-  position: relative;
-  background-color: #3066cb;
-}
-
-#collaborate {
-  padding-top: 1rem;
-  padding-bottom: 8rem;
-  position: relative;
-  justify-content: center;
-  text-align: center;
+  background-color: #fafafa;
 }
 
 button {
