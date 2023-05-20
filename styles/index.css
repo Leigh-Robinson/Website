@@ -25,6 +25,10 @@ section {
   flex-wrap: wrap;
 }
 
+section article h3 {
+  padding-top: 30px;
+}
+
 #banner {
   text-align: center;
   padding-bottom: 3rem;
@@ -39,7 +43,7 @@ codingImg {
 img {
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 30%;
 }
 
 #banner p {
@@ -66,7 +70,7 @@ img {
   padding: 10px;
   margin: 10px;
   max-width: 100%;
-  box-shadow: 0px 2px 3px lightgray;
+  box-shadow: 0px 1px 2px black;
   transition: all 0.4s;
   cursor: pointer;
   background-color: white;
@@ -74,7 +78,7 @@ img {
 
 /* Article pseudo-class */
  .card:hover {
-  box-shadow: 0px 3px 4px black;
+  box-shadow: 0px 4px 5px black;
 }
 
 #latestWork {
