@@ -3,19 +3,24 @@ main {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
+  padding: 15px;
 }
 
 h2 {
   font-size: 2rem;
+  text-align: center;
+  
+  padding: 10px;
 }
 
 h3 {
+  font-size: 1.4rem;
   padding: 3px;
 }
 
 p {
- font-size: 1rem;
+ font-size: 1.2rem;
  padding: 3px;
  color: #757575;
 }
@@ -23,6 +28,7 @@ p {
 section {
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
 }
  
 /*Template for section 1 of all pages*/
@@ -68,10 +74,6 @@ img {
   width: 30%;
 }
 
-#banner p {
-  font-size: 2rem;
-}
-
 #intro {
   width: 100%;
   padding: 15px 10px;
@@ -86,9 +88,9 @@ img {
 /* Article settings and pre-transition */
 .card {
   flex: 1;
-  border: solid 2px;
+  border: solid 1.5px;
   border-color: blue;
-  border-radius: 10px;
+  border-radius: 25px;
   padding: 10px;
   margin: 10px;
   max-width: 100%;
