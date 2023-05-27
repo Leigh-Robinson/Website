@@ -86,13 +86,12 @@ img {
 /* Article settings and pre-transition */
 .card {
   flex: 1;
-  border: solid 1px;
-  border-color: darkgray;
+  border: solid 2px;
+  border-color: blue;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
   max-width: 100%;
-  box-shadow: 0px 1px 2px #3066cb;
   transition: all 0.4s;
   cursor: pointer;
   background-color: white;
@@ -100,7 +99,9 @@ img {
 
 /* Article pseudo-class */
  .card:hover {
-  box-shadow: 0px 4px 5px #3066cb;
+  border-color: purple;
+  box-shadow: 0 2px 4px rgba(48, 102, 203, 0.8);
+  transform: scale(1.01);
 }
 
 #latestWork {
@@ -112,10 +113,10 @@ img {
 
 button {
   padding: 1.5rem;
-  border: 2px solid #3066cb;
+  border: 2px solid blue;
+  border-radius: 99px;
   margin: 20px;
   color: black;
-  border-radius: 9999px;
   font-size: 1.25rem;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -123,8 +124,11 @@ button {
 }
 
 button:hover {
-  background-color: #3066cb;
-  color: white;
+  border: 2px solid purple;
+  /*background-color: #3066cb;*/
+  /*color: white;*/
+  box-shadow: 0 2px 4px rgba(48, 102, 203, 0.8);
+  transform: scale(1.01);
 }
 
 footer {

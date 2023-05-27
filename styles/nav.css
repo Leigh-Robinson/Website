@@ -16,6 +16,7 @@ nav {
   top: 0;
   width: 100%;
   text-align: right; 
+  background-color: rgba(255, 255, 255, 0.9); /* Set the background color with transparency */
 }
 
 nav a {
@@ -31,7 +32,7 @@ nav a:first-child {
 }
 
 a:hover:not(.active) {
-  color: green;
+  color: #541390;
 }
 
 .active {
