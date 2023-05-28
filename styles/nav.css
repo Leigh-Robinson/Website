@@ -25,6 +25,8 @@ nav a {
   text-align: center; 
   text-decoration: none;
   padding: 30px 16px;
+  color: blue;
+  font-size: 1.3rem;
 }
 
 nav a:first-child {
@@ -32,11 +34,11 @@ nav a:first-child {
 }
 
 a:hover:not(.active) {
-  color: #541390;
+  color: purple;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: purple;
 }
 
 @media screen and (max-width: 600px) {

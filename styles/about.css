@@ -1,12 +1,3 @@
-h2 {
-    padding: 15px;
-}
-
-p {
-  font-size: 1rem;
-  padding: 10px;
-  }
-
 #beginning h2 {
   text-align: center;
   padding-top: 60px;
@@ -43,7 +34,7 @@ p {
   flex: 1;
   background-color: grey;
   border: solid 2px black;
-  border-color: black
+  border-color: black;
   border-radius: 10px;
   padding: 10px;
   margin: 15px;

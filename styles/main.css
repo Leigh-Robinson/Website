@@ -5,6 +5,7 @@ main {
 h1 {
   font-size: 2.8rem;
   padding: 15px;
+  text-align: center;
 }
 
 h2 {
@@ -143,4 +144,30 @@ footer {
   justify-content: center;
   text-align: center;
   white-space: nowrap;
+}
+
+/* Contact Page Form */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contactForm label,
+#contactForm input,
+#contactForm textarea {
+  margin-bottom: 10px; /* Add desired spacing between elements */
+}
+
+#contactForm textarea {
+  height: 100px; /* Adjust the height as needed */
+}
+
+#contactForm button {
+  margin-top: 10px; /* Add space above the button */
+}
+
+textarea {
+  width: 8rem;
+  height: 8rem;
 }
