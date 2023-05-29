@@ -41,27 +41,18 @@
         <a href="contact.html">Contact</a>
     </nav>
     <main>
-        <h1>How can I help?</h1> <!--I need to get this in to section 2-->
+        <h1>Thank you.</h1> <!--I need to get this in to section 2-->
+        <p>Your message was sent successfully. (Blue)</p>
         <section class="contact">
            
             <article id="contact">
-                <form 
-                  id="contactForm" 
-                  action="success" 
-                  method="post" 
-                  autocomplete="on" 
-                  target="_blank" 
-                  netlify-honeypot="bot-field" 
-                  data-netlify-recaptcha="true" 
-                  data-netlify="true">
-                    <label class="hidden">Don’t fill this out if you’re human: <input name="bot-field" /></label>
-                    <label for="name"><p>Name:</p></label><br>
-                    <input type="text" id="name" name="name"><br>
-                    <label for="email"><p>Email:</p></label><br>
-                    <input type="email" id="email" name="email">
+                <form id="contactForm" action="" method="post" autocomplete="on" target="_blank" data-netlify="true">
+                    <label for="fname"><p>First name:</p></label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname"><p>Last name:</p></label><br>
+                    <input type="text" id="lname" name="lname">
                     <label for="message"><p>Message:</p></label><br>
                     <textarea name="message"></textarea>
-                    <div data-netlify-recaptcha="true"></div>
                     <br><br>
                     <button class="button1" type="submit" value="Submit">Submit</button>
                   </form>

@@ -147,6 +147,10 @@ footer {
 }
 
 /* Contact Page Form */
+.hidden {
+  display: none;
+}
+
 .contact {
   display: flex;
   justify-content: center;
