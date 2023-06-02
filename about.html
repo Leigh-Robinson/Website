@@ -22,28 +22,34 @@
   
     <!-- CSS file -->
     <link rel="stylesheet" href="styles/nav.css">
-    <!--This is what is causing the issue-->
     <link rel="stylesheet" href="styles/main.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- custom fonts -->
-    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text">
-
+    <!--This custom font isn't showing for some reason. Since the hambuger menu was introduced-->
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text" rel="stylesheet">
+    
     
 </head>
 <Body>
-    <nav id="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" >Home</a>
+    <a href="about.html" class="active">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div> 
     <main>
         <section class="section1">
+            <h1>About</h1>
             <article>
-                <h1>I'm a web designer and developer based in Cambridge, U.K.</h1>
+                <h2>I'm a web designer and developer based in Cambridge, U.K.</h2>
                 <p>I first started building websites in the late 1990's with only a basic understanding of HTML. In 2002 I built my first ecommerce website using OsCommerce. At this stage it wasn't a 'drag and drop' system that easily builds the site, you had to install folders and pages with data. I somehow managed to get it all working.</p>
                 <p>I really enjoyed building the ecommerce site and would've liked to have learnt more about coding. I couldn't find any classes to learn so I tried learning from books. This didn't work for me as I would get one character wrong in my code, it wouldn't work and I had no way of knowing how to find and fix it.</p>
                 <p>In 2009 I wanted to start a small ecommerce business. Technology had moved forward and now I could use 'drag and drop' to build an ecommerce site. I built a small jewellery business using Volusion. I later migrated to Shopify and continue to use it for my ecommerce business today.</p>
