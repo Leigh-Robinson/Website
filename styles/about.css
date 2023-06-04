@@ -1,42 +1,17 @@
-#beginning h2 {
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 15px;
-  width: 100%;
-  }
 
-#current {
-  background-color: #f1ece5;
-  width: 100%;
-  }
-  
-#current h2 {
-  color:#ff5c81;
-  text-align: center;
-  }
 
-  #interests {
-    width: 100%;
-    }
-    
-  #interests h2 {
-    color: #0A66C2;
-    text-align: center;
-    }
-
-.card {
+.logo-container {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-/* Article settings and pre-transition */
-.card {
-  flex: 1;
-  background-color: grey;
-  border: solid 2px black;
-  border-color: black;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 15px;
-  max-width: 100%;
+.logo {
+  width: 40px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust the spacing between logo and text */
 }
+
+.logo-text {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
