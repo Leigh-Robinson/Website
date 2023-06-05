@@ -23,6 +23,7 @@
     <!-- CSS file -->
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/services.css">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -49,7 +50,7 @@
             <h1>Services</h1>
             <article id="banner">
                 <h2>I need a new Website</h2>
-                <p>Fill out our short survery and we'll get back to you with ideas and quotes.</p>
+                <p>Fill out our short survey and we'll get back to you with ideas and quotes.</p>
                 <div class="button-wrapper">
                     <button class="button1">Complete the survey.</button>
                   </div>
@@ -58,6 +59,7 @@
         <div id="latestWork">
             <h2>I want to update my existing website</h2> <!--I need to get this in to section 2-->
             <p>You've probably already got reasons why you'd like to update your website. </p>
+            <p>Take a look on google lighthouse to see how well it performs.</p>
         </div>
         <section class="section2">
             <article class="card" id="ecommerce">
@@ -86,6 +88,70 @@
               
             </article>
           
+        </section>
+        <section>
+          <article id="survey">
+            <form 
+              id="surveyForm" 
+              action="success" 
+              method="post" 
+              autocomplete="on" 
+              target="_blank" 
+              netlify-honeypot="bot-field" 
+              data-netlify-recaptcha="true" 
+              data-netlify="true">
+                
+                <label for="name"><p>Name:</p></label>
+                <input type="text" id="name" name="name">
+                <label for="email"><p>Email:</p></label>
+                <input type="email" id="email" name="email">
+                <!--Survey Questions Start-->
+                <label for="purpose"><p>1. What is the purpose of the website? (e.g., to sell products, provide information, generate leads)</p></label>
+                <input type="text" id="purpose" name="purpose">
+                <label for="targetAudience"><p>2. Who is the target audience for the website?</p></label>
+                <input type="text" id="targetAudience" name="targetAudience">
+                <label for="styleBranding"><p>3. Do you have a specific design style or branding guidelines in mind?</p></label>
+                <input type="text" id="styleBranding" name="styleBranding">
+                <label for="domain"><p>4. Do you have a domain name and hosting provider already? If not, would you like assistance with that?</p></label>
+                <input type="text" id="domain" name="domain">
+                <label for="content"><p>5. Do you have any existing content (such as images, videos, or written material) that needs to be included in the website?</p></label>
+                <input type="text" id="content" name="content">
+                <label for="features"><p>6. Are there any specific features or functionality you require? (e.g., e-commerce capabilities, contact forms, user registration)</p></label>
+                <input type="text" id="features" name="features">
+                <label for="cms"><p>7. Do you have a preference for a particular content management system (CMS) like WordPress, Joomla, or Drupal?</p></label>
+                <input type="text" id="cms" name="cms">
+                <label for="timeline"><p>8. What is your desired timeline for the website development?</p></label>
+                <input type="text" id="timeline" name="timeline">
+                <label for="budget"><p>9. Do you have a budget allocated for this project?</p></label>
+                <input type="text" id="budget" name="budget">
+                <label for="maintenance"><p>10. Will you require ongoing website maintenance and updates after the initial development?</p></label>
+                <input type="text" id="maintenance" name="maintenance">
+                <label for="websites"><p>11. Are there any specific competitors or websites you admire that we should consider as inspiration?</p></label>
+                <input type="text" id="websites" name="websites">
+                <label for="seo"><p>12. Do you need search engine optimization (SEO) services to improve the visibility of your website in search engine results?</p></label>
+                <input type="text" id="seo" name="seo">
+                <label for="legal"><p>13. Are there any legal or compliance requirements that need to be considered? (e.g., GDPR, accessibility standards)</p></label>
+                <input type="text" id="legal" name="legal">
+                <label for="copywriting"><p>14. Will you require assistance with content creation or copywriting?</p></label>
+                <input type="text" id="copywriting" name="copywriting">
+                <label for="integration"><p>15. Are there any integration needs with other systems or third-party services (e.g., CRM, payment gateways, social media platforms)?</p></label>
+                <input type="text" id="integration" name="integration">
+                <label for="layout"><p>16. Do you have any specific preferences for the website's layout, color scheme, or typography?</p></label>
+                <input type="text" id="layout" name="layout">
+                <label for="analytics"><p>17. Will you need assistance with website analytics and tracking user behavior?</p></label>
+                <input type="text" id="analytics" name="analytics">
+                <label for="navigation"><p>18. How would you like visitors to navigate and interact with your website?</p></label>
+                <input type="text" id="navigation" name="navigation">
+                <label for="scaling"><p>19. Do you have any future plans for scaling or expanding the website's functionality?</p></label>
+                <input type="text" id="scaling" name="scaling">
+                <label for="message"><p>20. Is there anything else you would like to add or any specific concerns or goals you have for the website?</p></label>
+                <textarea name="message"></textarea>
+                <!--Survey Questions End-->
+                <div data-netlify-recaptcha="true"></div>
+                <br><br>
+                <button class="button1" type="submit" value="Submit">Submit</button>
+              </form>
+        </article>
         </section>
         
     </main>
