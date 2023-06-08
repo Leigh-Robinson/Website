@@ -1,5 +1,6 @@
 * {
   font-family: figtree;
+  text-align:center;
 }
 
 main {
@@ -16,6 +17,7 @@ h2 {
   font-size: 2rem;
   text-align: center;
   padding: 5px;
+  color: blue;
 }
 
 h3 {
@@ -123,7 +125,8 @@ codingImg {
   background-color: #fafafa;
 }
 
-button {
+.button1 {
+  display: inline-block;
   padding: 1.5rem;
   border: 2px solid blue;
   border-radius: 99px;
@@ -133,15 +136,24 @@ button {
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: white;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
-button:hover {
+.button1:hover {
   border: 2px solid purple;
-  /*background-color: #3066cb;*/
-  /*color: white;*/
-  box-shadow: 0 2px 4px rgba(48, 102, 203, 0.8);
-  transform: scale(1.01);
+  box-shadow: 0 4px 6px rgba(48, 102, 203, 0.8);
+  transform: translateY(-2px);
 }
+
+.button1:active {
+  color: black;
+  border: 2px solid purple;
+  box-shadow: 0 0 #666;
+  transform: translateY(0);
+}
+
+
 
 footer {
   display: flex;
@@ -185,3 +197,32 @@ textarea {
   width: 8rem;
   height: 8rem;
 }
+
+/*Other logos formatting*/
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust the spacing between logo and text */
+  text-align:center;
+}
+
+.logo-text {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+/*Other logos formatting END*/
+
+/*Form Styling*/
+input[type="text"], input[type="email"] {
+  border: solid 1.5px;
+  border-color: blue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 100%;
+}
+/*Form Styling END*/
