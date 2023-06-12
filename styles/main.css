@@ -8,13 +8,13 @@ main {
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   padding: 5px;
   text-align: center;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   padding: 5px;
   color: blue;
@@ -34,29 +34,46 @@ p {
 section {
   display: flex;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: 5px;
 }
  
 /*Template for section 1 of all pages*/
 .section1 { 
+  padding-bottom: 1rem;
+  position: relative;
+  justify-content: center;
+  text-align: center;
   border-bottom: solid 1px darkgray;
 }
 
 /*Template for section 2 of all pages*/
 .section2 {
-  padding-bottom: 7rem;
+  padding-bottom: 1rem;
   position: relative;
+  justify-content: center;
+  text-align: center;
   background-color:#fafafa;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px darkgray;
 }
 
 /*Template for section 3 of all pages*/
 .section3 {
   padding-top: 3rem;
-  padding-bottom: 8rem;
+  padding-bottom: 1rem;
   position: relative;
   justify-content: center;
   text-align: center;
+  border-bottom: solid 1px darkgray;
+}
+
+/*Template for section 4 of all pages*/
+.section4 {
+  padding-bottom: 1rem;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  background-color:#fafafa;
+  border-bottom: solid 1px darkgray;
 }
 
 section article h3 {
@@ -159,7 +176,7 @@ footer {
   display: flex;
   padding: 1rem;
   background-color: #f5f5f5;
-  border-bottom: 0.5px solid lightgray;
+  border-bottom: solid 1px darkgray;
   color: #757575;
   
   justify-content: center;
@@ -208,7 +225,6 @@ textarea {
   width: 40px; /* Adjust the width as needed */
   height: auto;
   margin-right: 10px; /* Adjust the spacing between logo and text */
-  text-align:center;
 }
 
 .logo-text {
@@ -218,11 +234,18 @@ textarea {
 
 /*Form Styling*/
 input[type="text"], input[type="email"] {
-  border: solid 1.5px;
-  border-color: blue;
+  border: solid 1px;
+  border-color: darkgray;
   border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
   max-width: 100%;
 }
 /*Form Styling END*/
+
+/*Survey Styling*/
+#survey {
+
+#survey p {
+}
+/*Survey Styling End*/
