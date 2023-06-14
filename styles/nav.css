@@ -13,20 +13,20 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   transition: font-size 0.3s ease; /* Add a transition effect for smooth animation */
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   color: purple;
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
   color: purple;
-  font-size: 1.8rem;
+  font-size: 1rem;
 }
 
 /* Hide the link that should open and close the topnav on small screens */

@@ -4,7 +4,7 @@
 }
 
 main {
-  padding-top: 5px;
+  padding-top: 1rem;
 }
 
 h1 {
@@ -82,7 +82,7 @@ section article h3 {
 
 #banner {
   text-align: center;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   width: 100%;
 }
 
@@ -98,13 +98,12 @@ codingImg {
 }
 
 @media screen and (max-width: 600px) {
-  #banner {height: 100vh;}
+  /*#banner {height: 100vh;}*/
   #coding-image img {width: 100%;}
   }
 
 #banner-intro {
   width: 100%;
-  padding: 10px;
   text-align: center;
   font-size: 2rem;
 }
@@ -159,7 +158,7 @@ codingImg {
 
 .button1:hover {
   border: 2px solid purple;
-  box-shadow: 0 4px 6px rgba(48, 102, 203, 0.8);
+  box-shadow: 0 3px 5px rgba(48, 102, 203, 0.8);
   transform: translateY(-2px);
 }
 
@@ -171,7 +170,7 @@ codingImg {
 }
 
 
-
+/*Footer*/
 footer {
   display: flex;
   padding: 1rem;
@@ -183,6 +182,15 @@ footer {
   text-align: center;
   white-space: nowrap;
 }
+
+.logo {
+  transition: transform 0.3s ease-in-out; /* This will make the scaling smooth */
+}
+
+.logo:hover {
+  transform: scale(1.1); /* This will increase the size of the image by 10% on hover */
+}
+/*Footer End*/
 
 /* Contact Page Form */
 .hidden {
@@ -239,13 +247,15 @@ input[type="text"], input[type="email"] {
   border-radius: 10px;
   padding: 5px;
   margin: 5px;
-  max-width: 100%;
+  width: 80%;
+}
+
+textarea {
+  border: solid 1px;
+  border-color: darkgray;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  width: 80%;
 }
 /*Form Styling END*/
-
-/*Survey Styling*/
-#survey {
-
-#survey p {
-}
-/*Survey Styling End*/
