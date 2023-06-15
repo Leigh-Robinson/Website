@@ -259,3 +259,26 @@ textarea {
   width: 80%;
 }
 /*Form Styling END*/
+
+/*Services table END*/
+table {
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.services {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+th, td {
+  padding: 10px;
+  margin: 5px;
+}
+
+✔️ {
+  color: blue;
+}
+
+/*Services table END*/
