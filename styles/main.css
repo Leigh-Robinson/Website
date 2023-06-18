@@ -9,7 +9,7 @@ main {
 
 h1 {
   font-size: 1.8rem;
-  padding: 5px;
+  padding: 1px;
   text-align: center;
 }
 
@@ -39,11 +39,18 @@ section {
  
 /*Template for section 1 of all pages*/
 .section1 { 
-  padding-bottom: 1rem;
+  padding: 1rem;
   position: relative;
   justify-content: center;
   text-align: center;
   border-bottom: solid 1px darkgray;
+}
+
+#servicesIntro {
+  background-image: url('img/computer.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /*Template for section 2 of all pages*/
@@ -52,14 +59,17 @@ section {
   position: relative;
   justify-content: center;
   text-align: center;
-  background-color:#fafafa;
+  background-color: #f6f6f6;
   border-bottom: solid 1px darkgray;
+} 
+
+#services {
+  display: block;
 }
 
 /*Template for section 3 of all pages*/
 .section3 {
-  padding-top: 3rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
   position: relative;
   justify-content: center;
   text-align: center;
@@ -111,6 +121,7 @@ codingImg {
 .card {
   display: flex;
   flex-wrap: wrap;
+  background-color: white;
 }
 
 /* Article settings and pre-transition */
@@ -119,12 +130,12 @@ codingImg {
   border: solid 1.5px;
   border-color: darkgray;
   border-radius: 25px;
-  padding: 15px;
+  padding: 1rem;
   margin: 10px;
   max-width: 100%;
   transition: all 0.4s;
   /*cursor: pointer;*/
-  background-color: white;
+  box-shadow: 0 1px 3px rgba(48, 102, 203, 0.8);
 }
 
 /* Article pseudo-class */
@@ -172,29 +183,6 @@ codingImg {
   box-shadow: 0 0 #666;
   transform: translateY(0);
 }
-
-
-/*Footer*/
-footer {
-  display: flex;
-  padding: 1rem;
-  background-color: #f5f5f5;
-  border-bottom: solid 1px darkgray;
-  color: #757575;
-  
-  justify-content: center;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.logo {
-  transition: transform 0.3s ease-in-out; /* This will make the scaling smooth */
-}
-
-.logo:hover {
-  transform: scale(1.1); /* This will increase the size of the image by 10% on hover */
-}
-/*Footer End*/
 
 /* Contact Page Form */
 .hidden {
@@ -264,11 +252,20 @@ textarea {
 }
 /*Form Styling END*/
 
-/*Services table END*/
+/*Services page*/
+#computerImage {
+  width: 100%; /* Adjust the width as needed */
+  max-width: 500px; /* Set a maximum width if desired */
+  border-radius: 10px; /* Apply rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/*Services table*/
 table {
   padding: 1rem;
   border: 1px solid black;
   border-radius: 10px;
+  background-color: white;
 }
 
 .services {
@@ -286,3 +283,25 @@ th, td {
 }
 
 /*Services table END*/
+
+/*Footer*/
+footer {
+  display: flex;
+  padding: 1rem;
+  background-color: lightgray;
+  border-bottom: solid 1px darkgray;
+  color: #757575;
+  
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.logo {
+  transition: transform 0.3s ease-in-out; /* This will make the scaling smooth */
+}
+
+.logo:hover {
+  transform: scale(1.1); /* This will increase the size of the image by 10% on hover */
+}
+/*Footer End*/
