@@ -12,7 +12,5 @@
     object-fit: cover; /* This ensures the image fills the container */
   }
 
-  .section3 #skills {
-    background: linear-gradient(to top right, purple, blue);
-  }
+ 
   
