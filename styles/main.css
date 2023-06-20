@@ -13,18 +13,20 @@ h1 {
   font-size: 2.2rem;
   padding: 1rem;
   text-align: center;
+  color: #323b4a;
 }
 
 h2 {
   font-size: 2rem;
   text-align: center;
   padding: 5px;
-  color: blue;
+  color: #323b4a;
 }
 
 h3 {
   font-size: 1.8rem;
   padding: 3px;
+  color: #323b4a;
 }
 
 p {
@@ -50,18 +52,19 @@ section {
   z-index: 99; /* Set a specific z-index value */
 }
 
-#servicesIntro {
-  background-image: url('img/computer.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 /*Template for section 2 of all pages*/
 .section2 {
   background-color: #f6f6f6;
   z-index: 98; /* Set a specific z-index value */
 } 
+
+#latest-work {
+  background: linear-gradient(to right, #8155e6, #d05cb7);
+}
+
+#latest-work h2, p {
+  color: #faf6fd;
+}
 
 #services {
   display: block;
@@ -108,6 +111,7 @@ codingImg {
   width: 100%;
   text-align: center;
   font-size: 2rem;
+  color: #757575;
 }
 
 .card {
@@ -147,30 +151,28 @@ codingImg {
 
 .button1 {
   display: inline-block;
-  padding: 1.5rem;
-  border: 2px solid blue;
-  border-radius: 99px;
+  padding: 1rem;
+  border: 2px;
+  border-radius: 10px;
   margin: 20px;
-  color: black;
+  color: #faf6fd;
+  background-color: #a450f7;
   font-size: 1.25rem;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: white;
   text-decoration: none;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  /*box-shadow: 0 2px 4px rgba(0,0,0,0.2);*/
 }
 
 .button1:hover {
-  border: 2px solid purple;
-  box-shadow: 0 3px 5px rgba(48, 102, 203, 0.8);
-  transform: translateY(-2px);
+  color: white;
+  background-color: #9448de;
+  
 }
 
 .button1:active {
   color: black;
-  border: 2px solid purple;
-  box-shadow: 0 0 #666;
-  transform: translateY(0);
+  border: 2px solid #a450f7;
 }
 
 /* Contact Page Form */
@@ -266,9 +268,10 @@ textarea {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
   text-align: center;
   padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
 }
 
 #computerImage {
