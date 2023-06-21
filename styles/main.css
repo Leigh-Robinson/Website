@@ -58,12 +58,13 @@ section {
   z-index: 98; /* Set a specific z-index value */
 } 
 
-#latest-work {
+.latest-work {
   background: linear-gradient(to right, #8155e6, #d05cb7);
+  color: #faf6fd;
 }
 
-#latest-work h2, p {
-  color: #faf6fd;
+.latest-work h2, .latest-work p {
+  color: #faf6fd; 
 }
 
 #services {
