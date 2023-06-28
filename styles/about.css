@@ -1,6 +1,6 @@
 .profile-image {
-    width: 250px; /* Adjust the size according to your preference */
-    height: 250px; /* Adjust the size according to your preference */
+    width: 15.6rem; /* Adjust the size according to your preference */
+    height: 15.6rem; /* Adjust the size according to your preference */
     border-radius: 50%;
     overflow: hidden;
     border: solid 2px #a450f7;
@@ -15,5 +15,22 @@
     
 }
 
+.container {
+    display: flex;
+  }
+  
+  .text-column {
+    flex: 1;
+    padding: 20px
+  }
+  
+  .image-column {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
  
   

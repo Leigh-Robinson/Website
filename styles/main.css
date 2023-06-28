@@ -31,7 +31,7 @@ h3 {
 
 p {
  font-size: 1.2rem;
- padding: 3px;
+ padding: 1rem;
  color: #757575;
 }
 
@@ -129,12 +129,13 @@ codingImg {
   width: 100%;
   text-align: center;
   font-size: 2rem;
-  color: #757575;
+  color: #323b4a;
 }
 
 .card {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   background-color: white;
 }
 
@@ -150,7 +151,6 @@ codingImg {
   transition: all 0.4s;
   /*cursor: pointer;*/
   box-shadow: 0 1px 3px rgba(48, 102, 203, 0.8);
-  
 }
 
 /* Article pseudo-class */
@@ -184,7 +184,7 @@ codingImg {
 
 .button1:hover {
   color: #faf6fd;
-  background-color: #9448de;
+  background-color: #813ccc;
   
 }
 
@@ -227,13 +227,16 @@ textarea {
 /*Other logos formatting*/
 .logo-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
 .logo {
   width: 40px; /* Adjust the width as needed */
   height: auto;
-  margin-right: 10px; /* Adjust the spacing between logo and text */
+  margin-bottom: 10px; /* Adjust the spacing between logo and text */
+  padding: 5px;
 }
 
 .logo-text {
@@ -291,6 +294,25 @@ th, td {
 }
 
 /*Services table END*/
+
+/*Survey form */
+form {
+  padding: 5rem;
+}
+
+label {
+  padding: 2rem;
+}
+
+form#surveyForm label,
+form#surveyForm input[type="text"],
+form#surveyForm input[type="email"],
+form#surveyForm textarea {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/*Survey form End */
 
 /*Footer*/
 footer {
