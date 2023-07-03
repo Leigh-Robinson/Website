@@ -160,6 +160,7 @@ body {
     text-align:center;
     background: url(/portfolio/beauty/img/istockphoto-1184644734-1024x1024.jpg) no-repeat center center;
     background-size: cover;
+    height: 100vh;
 }
 
 .container {
@@ -172,13 +173,26 @@ body {
 }
 
 .overlay {
-    color: #fff; /* Text color for the overlay */
+  color: white; /* Text color for the overlay */
 }
 
 .overlay p {
-    color: #f4f6f8;
-    padding: 100px;
+    color: white;
+    padding: 20px;
 }
+
+/* Responsive design for smaller devices */
+@media only screen and (max-width: 600px) {
+  .overlay h1 {
+      font-size: 34px; /* Adjust size as needed */
+  }
+  .overlay p {
+      font-size: 16px; /* Adjust size as needed */
+      padding: 10px; /* Adjust padding as needed */
+  }
+  /* Add any other styling adjustments for smaller screens here */
+}
+
   /*Services text and image wrapping*/
   .container2 {
     display: flex;
