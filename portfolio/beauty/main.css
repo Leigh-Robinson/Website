@@ -13,16 +13,19 @@
     font-display: swap;
 }
 
+body {
+  background-color: #fcf1ef;
+}
+
   h1 {
     font-family: 'Carelia', serif;
     font-size: 90px;
-    color: #f4f6f8;
   }
 
   h2 {
     font-family: 'Playfair Display';
     font-size: 36px;
-    color: #202020;
+    color: #702B3D;
     margin: 0px 0px 12px;
     padding-bottom: 2rem;
   }
@@ -78,11 +81,19 @@
   }
 
   .section3 {
-    background-color: #f4f6f9;
+    background-color: #f2e4e3;
   }
 
   .section4 h2 {
     text-align:center;
+  }
+
+  .reviews {
+    background-color: #702B3D;
+  }
+
+  .reviews h2 {
+    color: #fcf1ef;
   }
 
   .section5 {
@@ -91,7 +102,7 @@
 
   article {
     padding: 3rem;
-    border: 8px solid white;
+    border: 8px solid #fcf1ef;
   }
 
   a {
@@ -120,18 +131,18 @@
   
   .button1:hover {
     color: #f4f6f8;
-    background-color: #fb90b1;
+    background-color: #702B3D;
     
   }
 
   .button2 {
     display: inline-block;
     padding: 17px 48px;
-    border: 2px solid #fb90b1;
+    border: none;
     border-radius: 27px;
     margin: 20px;
     color: #f4f6f8;
-    background-color: #fb90b1;
+    background-color: #702B3D;
     font-size: 1.25rem;
     transition-duration: 450ms;
     cursor: pointer;
@@ -140,14 +151,14 @@
   
   .button2:hover {
     color: #202020;
-    background-color: white;
-    
+    background-color: #8A4757;
+    color: #f4f6f8;
   }
 
   /*Image overlay for banner*/
   .section1 {
     text-align:center;
-    background: url(/img/istockphoto-1184644734-1024x1024.jpg) no-repeat center center;
+    background: url(/portfolio/beauty/img/istockphoto-1184644734-1024x1024.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -166,6 +177,7 @@
 
 .overlay p {
     color: #f4f6f8;
+    padding: 100px;
 }
   /*Services text and image wrapping*/
   .container2 {
@@ -224,6 +236,7 @@
     border-radius: 5px;
     margin-bottom: 20px; /* space at the bottom */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    background-color: #fcf1ef;
   }
   
   @media (max-width: 600px) {
