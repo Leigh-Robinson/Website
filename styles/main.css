@@ -43,8 +43,6 @@ section {
 #arborvita-latest {
   border-radius: 10px;
   margin: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  transition: box-shadow 0.3s ease;
 }
 
 #arborvita-latest:hover {
@@ -173,13 +171,13 @@ flex: 1 0 100%; /* On screens smaller than 600px, switch to one column */
 
 .button1 {
   display: inline-block;
-  padding: 1rem;
+  padding: .9rem;
   border: 2px;
-  border-radius: 10px;
+  border-radius: 30px;
   margin: 20px;
-  color: #faf6fd;
-  background-color: #a450f7;
-  font-size: 1.25rem;
+  color: white;
+  background-color: #1473e6;
+  font-size: 1rem;
   transition-duration: 0.4s;
   cursor: pointer;
   text-decoration: none;
@@ -187,8 +185,8 @@ flex: 1 0 100%; /* On screens smaller than 600px, switch to one column */
 }
 
 .button1:hover {
-  color: #faf6fd;
-  background-color: #813ccc;
+  color: white;
+  background-color: #0d4ca2;
   
 }
 
