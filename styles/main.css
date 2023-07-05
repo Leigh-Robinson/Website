@@ -40,6 +40,21 @@ section {
   position: relative;
 }
 
+.section1 {
+  text-align: center;
+  justify-content: center;
+}
+
+.section2 {
+  text-align: center;
+  justify-content: center;
+}
+
+.section3 {
+  text-align: center;
+  justify-content: center;
+}
+
 #arborvita-latest {
   border-radius: 10px;
   margin: 20px;
@@ -150,10 +165,11 @@ flex: 1 0 100%; /* On screens smaller than 600px, switch to one column */
   box-sizing: border-box; /* This includes padding and border in the element's total width and height */
   text-align: center;
   border: solid 5px white;
+  border-radius: 15px;
 }
 
 .latest1 {
-  background-color: #fe9401;
+  background: linear-gradient(135deg, #d8447e, #d95046, #df7238);
 }
 
 .latest2 {
