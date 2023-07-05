@@ -9,7 +9,7 @@
 .topnav a {
   
   display: inline-block; /* Change from 'block' to 'inline-block' to place links horizontally */
-  color: #757575;
+  color: #2c2c2c;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -19,12 +19,12 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  color: #a450f7;
+  background-color: light;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  color: #a450f7;
+  background-color: #fafafa;
   font-size: 1.2rem;
 }
 
