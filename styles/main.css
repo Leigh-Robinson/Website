@@ -108,17 +108,13 @@ codingImg {
   flex-wrap: wrap;
 }
 
-.container3 {
-  display: flex;
-  flex-wrap: wrap-reverse;
-}
-
 .text-content,
 .image-content {
   flex: 1 0 50%; /* Grow and shrink equally, base width 50% */
   padding: 1rem;
   box-sizing: border-box; /* This includes padding and border in the element's total width and height */
-  text-align: left;
+  text-align:left;
+  align-items: center;
 }
 
 .image-content img {
@@ -152,16 +148,16 @@ flex: 1 0 100%; /* On screens smaller than 600px, switch to one column */
   flex: 1 0 50%; /* Grow and shrink equally, base width 50% */
   padding: 1rem;
   box-sizing: border-box; /* This includes padding and border in the element's total width and height */
-  text-align: left;
+  text-align: center;
   border: solid 5px white;
 }
 
 .latest1 {
-  background-color: blue;
+  background-color: #fe9401;
 }
 
 .latest2 {
-  background-color: red;
+  background-color: #9797fc;
 }
 
 .image-content img {
