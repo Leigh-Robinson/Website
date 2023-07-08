@@ -250,36 +250,7 @@ flex: 1 0 100%; /* On screens smaller than 600px, switch to one column */
   border: 2px solid #a450f7;
 }
 
-/* Contact Page Form */
-.hidden {
-  display: none;
-}
 
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#contactForm label,
-#contactForm input,
-#contactForm textarea {
-  margin-bottom: 10px; /* Add desired spacing between elements */
-}
-
-#contactForm textarea {
-  height: 100px; /* Adjust the height as needed */
-  width: 200px;
-}
-
-#contactForm button {
-  margin-top: 10px; /* Add space above the button */
-}
-
-textarea {
-  width: 8rem;
-  height: 8rem;
-}
 
 /*Other logos formatting*/
 .logo-container {
@@ -321,43 +292,9 @@ textarea {
 }
 /*Form Styling END*/
 
-/*Survey form */
-form {
-  padding: 1rem;
-}
 
-label {
-  padding: 2rem;
-}
 
-form#surveyForm label,
-form#surveyForm input[type="text"],
-form#surveyForm input[type="email"],
-form#surveyForm textarea {
-  display: block;
-  margin-bottom: 5px;
-}
 
-/*Survey form End */
-
-/*Footer*/
-footer {
-  display: flex;
-  padding: 1rem;
-  background-color: #fafafa;
-  justify-content: center;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.logo {
-  transition: transform 0.3s ease-in-out; /* This will make the scaling smooth */
-}
-
-.logo:hover {
-  transform: scale(1.1); /* This will increase the size of the image by 10% on hover */
-}
-/*Footer End*/
 
 * {
   box-sizing: border-box;
