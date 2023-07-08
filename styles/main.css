@@ -1,3 +1,5 @@
+/*This is for styling for every page*/
+
 * {
   padding: 0;
   margin: 0;
@@ -29,30 +31,11 @@ p {
  padding: 1rem;
 }
 
-li {
-  padding: 5px;
-}
-
 section {
   display: flex;
   flex-wrap: wrap;
   padding: 1.5rem;
   position: relative;
-}
-
-.section1 {
-  text-align: center;
-  justify-content: center;
-}
-
-.section2 {
-  text-align: center;
-  justify-content: center;
-}
-
-.section3 {
-  text-align: center;
-  justify-content: center;
 }
 
 #arborvita-latest {
