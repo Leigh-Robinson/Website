@@ -1,0 +1,30 @@
+/* Contact Page Form */
+.hidden {
+    display: none;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #contactForm label,
+  #contactForm input,
+  #contactForm textarea {
+    margin-bottom: 10px; /* Add desired spacing between elements */
+  }
+  
+  #contactForm textarea {
+    height: 100px; /* Adjust the height as needed */
+    width: 200px;
+  }
+  
+  #contactForm button {
+    margin-top: 10px; /* Add space above the button */
+  }
+  
+  textarea {
+    width: 8rem;
+    height: 8rem;
+  }

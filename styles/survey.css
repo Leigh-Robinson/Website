@@ -1,0 +1,18 @@
+/*Survey form */
+form {
+    padding: 1rem;
+  }
+  
+  label {
+    padding: 2rem;
+  }
+  
+  form#surveyForm label,
+  form#surveyForm input[type="text"],
+  form#surveyForm input[type="email"],
+  form#surveyForm textarea {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /*Survey form End */
