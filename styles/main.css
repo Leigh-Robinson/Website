@@ -173,7 +173,7 @@ flex: 1 0 100%; /* On screens smaller than 600px, switch to one column */
 }
 
 .latest2 {
-  background-color: #9797fc;
+  background: linear-gradient(to top,#7979CA, #9797fc, #B6B6FD, #C5C5FE);
 }
 
 .image-content img {

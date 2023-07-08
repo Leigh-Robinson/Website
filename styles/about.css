@@ -39,3 +39,28 @@
     flex: 1; /* Reset flex property for larger screens */
   }
 }
+
+.skills-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.skills-column {
+  flex: 1 0 100%; /* Updated flex property */
+  padding: 20px;
+}
+
+.devtools-column {
+  flex: 1 0 100%; /* Updated flex property */
+  padding: 20px;
+  display: table-column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  .skills-column,
+  .devtools-column {
+    flex: 1; /* Reset flex property for larger screens */
+  }
+}
