@@ -31,67 +31,9 @@ p {
  padding: 1rem;
 }
 
-section {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1.5rem;
-  position: relative;
-}
 
-#arborvita-latest {
-  border-radius: 10px;
-  margin: 20px;
-}
 
-#arborvita-latest:hover {
-  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3), 0 8px 24px 0 rgba(0, 0, 0, 0.22);
-}
 
-#languages {
-  background: linear-gradient(to right, #da437d, #d94b58, #da5536, 
-  #df7539, #e6983c);
-}
-
-#dev-tools {
-  background: #fe9400;
-}
-
-#services {
-  display: block;
-}
-
-.services {
-  background-color: #a450f7;
-  color: #faf6fd;
-}
-
-#banner {
-  display: flex;
-  padding-bottom: 1rem;
-  width: 100%;
-}
-
-codingImg {
-  display: flex;
-  justify-content: center;
-}
-
-#coding-image img {
-  display: block;
-  margin: 0 auto;
-  width: 90%;
-}
-
-@media screen and (max-width: 600px) {
-  #banner {height: 100vh;}
-  #coding-image img {width: 100%;}
-  }
-
-#banner-intro {
-  width: 100%;
-  font-size: 2rem;
-  color: #323b4a;
-}
 
 .card {
   display: flex;
@@ -100,40 +42,7 @@ codingImg {
   background-color: white;
 }
 
-/*Banner text and image wrapping*/
-.container1 {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.text-content,
-.image-content {
-  flex: 1 0 50%; /* Grow and shrink equally, base width 50% */
-  padding: 1rem;
-  box-sizing: border-box; /* This includes padding and border in the element's total width and height */
-  text-align:left;
-  align-items: center;
-}
-
-.image-content img {
-width: 100%;
-height: auto;
-}
-
-.image-wrapper {
-  display: flex;
-  align-items: end;
-  justify-content: center;
-  height: 100%;
-}
-
-@media (max-width: 600px) {
-.text-content,
-.image-content {
-flex: 1 0 100%; /* On screens smaller than 600px, switch to one column */
-}
-}
-/*Banner text and image wrapping end*/
 
 /*Latest work text and image wrapping*/
 .container2 {
@@ -141,43 +50,7 @@ flex: 1 0 100%; /* On screens smaller than 600px, switch to one column */
   flex-wrap: wrap;
 }
 
-.latest1,
-.latest2 {
-  flex: 1 0 50%; /* Grow and shrink equally, base width 50% */
-  padding: 1rem;
-  box-sizing: border-box; /* This includes padding and border in the element's total width and height */
-  text-align: center;
-  border: solid 5px white;
-  border-radius: 15px;
-}
 
-.latest1 {
-  background: linear-gradient(135deg, #d8447e, #d95046, #df7238);
-}
-
-.latest2 {
-  background: linear-gradient(to top,#7979CA, #9797fc, #B6B6FD, #C5C5FE);
-}
-
-.image-content img {
-width: 100%;
-height: auto;
-}
-
-.image-wrapper {
-  display: flex;
-  align-items: end;
-  justify-content: center;
-  height: 100%;
-}
-
-@media (max-width: 600px) {
-.text-content,
-.image-content {
-flex: 1 0 100%; /* On screens smaller than 600px, switch to one column */
-}
-}
-/*Latest Work text and image wrapping end*/
 
 /* Article settings and pre-transition */
 .card {
@@ -192,13 +65,6 @@ flex: 1 0 100%; /* On screens smaller than 600px, switch to one column */
   /*cursor: pointer;*/
   box-shadow: 0 1px 3px rgba(48, 102, 203, 0.8);
 }
-
-/* Article pseudo-class */
- /*.card:hover {
-  border-color: purple;
-  box-shadow: 0 2px 4px rgba(48, 102, 203, 0.8);
-  transform: scale(1.01);
-}*/
 
 #latestWork {
   padding-top: 3.5rem;
