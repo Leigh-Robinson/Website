@@ -1,3 +1,4 @@
+/*Section 1 styling*/
 .profile-image {
     width: 15.6rem; /* Adjust the size according to your preference */
     height: 15.6rem; /* Adjust the size according to your preference */
@@ -18,11 +19,17 @@
 .profile-container {
   display: flex;
   flex-wrap: wrap;
+  background: linear-gradient(45deg, #6aa5e4, #7e93eb, #a08de8, #cd76fc, #f943ae);
+  padding: 4rem;
 }
 
 .text-column {
   flex: 1 0 100%; /* Updated flex property */
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  text-align: left; /* Centers the text horizontally */
+  flex-direction: column; /* Stacks flex items vertically */
 }
 
 .image-column {
@@ -39,28 +46,29 @@
     flex: 1; /* Reset flex property for larger screens */
   }
 }
+/*Section 1 styling End*/
 
-.skills-container {
-  display: inline-flex;
+#languages-background {
+  background: linear-gradient(135deg, #d8447e, #d95046, #df7238);
+  margin: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+}
+
+.languages-container {
+  display: flex;
   flex-wrap: wrap;
-}
-
-.skills-column {
-  flex: 1 0 100%; /* Updated flex property */
-  padding: 20px;
-}
-
-.devtools-column {
-  flex: 1 0 100%; /* Updated flex property */
-  padding: 20px;
-  display: table-column;
   justify-content: center;
-  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
 }
 
-@media screen and (min-width: 600px) {
-  .skills-column,
-  .devtools-column {
-    flex: 1; /* Reset flex property for larger screens */
-  }
+.devtools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+  background: linear-gradient(135deg, #d8447e, #d95046, #df7238);
 }

@@ -17,62 +17,22 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  text-align: center;
-  padding: 5px;
+  padding: 1rem;
 }
 
 h3 {
   font-size: 1.6rem;
-  padding: 3px;
+  padding: 1rem;
 }
 
 p {
  font-size: 1.2rem;
- padding: 1rem;
+ padding-left: 1rem;
+ padding-top: 0.5rem;
+ padding-bottom: 0.5rem;
 }
 
-
-
-
-
-.card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: white;
-}
-
-
-
-/*Latest work text and image wrapping*/
-.container2 {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-
-/* Article settings and pre-transition */
-.card {
-  flex: 1;
-  border: solid 1.5px;
-  border-color: darkgray;
-  border-radius: 5px;
-  padding: 1rem;
-  margin: 10px;
-  max-width: 100%;
-  transition: all 0.4s;
-  /*cursor: pointer;*/
-  box-shadow: 0 1px 3px rgba(48, 102, 203, 0.8);
-}
-
-#latestWork {
-  padding-top: 3.5rem;
-  padding-bottom: 2rem;
-  text-align: center;
-  background-color: #fafafa;
-}
-
+/*styling for buttons*/
 .button1 {
   display: inline-block;
   padding: .9rem;
@@ -91,61 +51,5 @@ p {
 .button1:hover {
   color: white;
   background-color: #0d4ca2;
-  
 }
-
-.button1:active {
-  color: black;
-  border: 2px solid #a450f7;
-}
-
-
-
-/*Other logos formatting*/
-.logo-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo {
-  width: 40px; /* Adjust the width as needed */
-  height: auto;
-  margin-bottom: 10px; /* Adjust the spacing between logo and text */
-  padding: 5px;
-}
-
-.logo-text {
-  font-size: 18px; /* Adjust the font size as needed */
-}
-/*Other logos formatting END*/
-
-/*Form Styling*/
-input[type="text"], input[type="email"] {
-  border: solid 1px;
-  border-color: darkgray;
-  border-radius: 10px;
-  padding: 5px;
-  margin: 5px;
-  width: 80%;
-}
-
-textarea {
-  border: solid 1px;
-  border-color: darkgray;
-  border-radius: 10px;
-  padding: 5px;
-  margin: 5px;
-  width: 80%;
-}
-/*Form Styling END*/
-
-
-
-
-
-* {
-  box-sizing: border-box;
-}
-
+/*styling for buttons END*/

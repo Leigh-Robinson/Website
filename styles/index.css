@@ -48,6 +48,12 @@
   }
   /*Banner text and image wrapping end*/
 
+  /*Latest work text and image wrapping*/
+ .container2 {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
   #arborvita-latest {
     border-radius: 10px;
     margin: 20px;
@@ -55,24 +61,6 @@
   
   #arborvita-latest:hover {
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3), 0 8px 24px 0 rgba(0, 0, 0, 0.22);
-  }
-  
-  #languages {
-    background: linear-gradient(to right, #da437d, #d94b58, #da5536, 
-    #df7539, #e6983c);
-  }
-  
-  #dev-tools {
-    background: #fe9400;
-  }
-  
-  #services {
-    display: block;
-  }
-  
-  .services {
-    background-color: #a450f7;
-    color: #faf6fd;
   }
   
   #banner {
@@ -140,3 +128,24 @@ flex: 1 0 100%; /* On screens smaller than 600px, switch to one column */
 }
 }
 /*Latest Work text and image wrapping end*/
+
+.button1 {
+  display: inline-block;
+  padding: .9rem;
+  border: 2px;
+  border-radius: 30px;
+  margin: 20px;
+  color: white;
+  background-color: #1473e6;
+  font-size: 1rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  /*box-shadow: 0 2px 4px rgba(0,0,0,0.2);*/
+}
+
+.button1:hover {
+  color: white;
+  background-color: #0d4ca2;
+  
+}

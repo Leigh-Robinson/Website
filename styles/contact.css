@@ -28,3 +28,23 @@
     width: 8rem;
     height: 8rem;
   }
+
+  /*Form Styling*/
+input[type="text"], input[type="email"] {
+  border: solid 1px;
+  border-color: darkgray;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  width: 80%;
+}
+
+textarea {
+  border: solid 1px;
+  border-color: darkgray;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  width: 80%;
+}
+/*Form Styling END*/
