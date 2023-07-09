@@ -55,7 +55,6 @@
   }
 
   #arborvita-latest {
-    border-radius: 10px;
     margin: 25px;
   }
   
@@ -98,7 +97,6 @@
   box-sizing: border-box; /* This includes padding and border in the element's total width and height */
   text-align: center;
   border: solid 5px white;
-  border-radius: 15px;
 }
 
 .latest1 {

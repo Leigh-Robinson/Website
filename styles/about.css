@@ -53,9 +53,11 @@
 .section2 {
   display: flex;
   flex-wrap: wrap;
+  text-align: left;
+  justify-content: center;
 }
 
-#languages-background {
+.languages {
   background: linear-gradient(135deg, #d8447e, #d95046, #df7238);
   margin: 1rem;
   padding-left: 2rem;
