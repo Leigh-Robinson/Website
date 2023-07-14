@@ -17,14 +17,27 @@
   table {
     display: inline-block;
     padding: 1rem;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: white;
+    border: 1px solid none;
+    border-radius: 5px;
+    background: linear-gradient(135deg,#d8447e,#d95046,#df7238);
+    color: white;
   }
   
   .services {
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 1px solid none;
+    border-radius: 5px;
+  }
+
+  .basic {
+    background-color: #CD7F32;
+  }
+
+  .standard {
+    background-color: #aaa9ad;
+  }
+
+  .premium {
+    background-color: #D4AF37;
   }
   
   th, td {
