@@ -28,8 +28,8 @@
     display: inline-block;
     padding: 1rem;
     border: 1px solid none;
+    background-color: #3a53e4;
     border-radius: 5px;
-    background: linear-gradient(135deg,#d8447e,#d95046,#df7238);
     color: white;
   }
   
@@ -66,5 +66,26 @@
     margin: 1rem;
     padding: 1rem;
     border: solid 1px black;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
+  }
+
+  .services-type img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3rem; /* Adjust the width as needed */
+  }
+
+  .ecommerce {
+    background-color: #afc5d8;
+  }
+
+  .seo {
+    background-color: #3a53e4;
+    color: white;
+  }
+
+  .accessibility {
+    background-color: #29292b;
+    color: white;
   }
