@@ -2,3 +2,38 @@
   text-align: center;
   justify-content: center;
 }
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-example {
+  flex: 1;
+  margin: 1rem;
+  padding: 1rem;
+  border: solid 1px black;
+  border-radius: 0.5rem;
+}
+
+a.portfolio-links {
+  font-size: 1.3rem;
+  color: #1473e6; /* Change to your desired text color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Add bold font weight, adjust as desired */
+}
+
+a.portfolio-links:hover {
+  color: #0d4ca2; /* Change to your desired hover text color */
+  text-decoration: underline; /* Add underline on hover, adjust as desired */
+}
+
+#hwrobotics-img {
+  max-width: 100%;
+  padding: 1.5rem;
+}
+
+#arborvita-img {
+  max-width: 100%;
+  padding: 1.5rem;
+}
