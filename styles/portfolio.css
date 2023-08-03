@@ -19,7 +19,7 @@
 a.portfolio-links {
   font-size: 1.3rem;
   color: #1473e6; /* Change to your desired text color */
-  text-decoration: none; /* Remove underline */
+  text-decoration: underline; /* Remove underline */
   font-weight: bold; /* Add bold font weight, adjust as desired */
 }
 
