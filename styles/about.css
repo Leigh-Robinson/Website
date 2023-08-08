@@ -4,7 +4,7 @@
     height: 15.6rem; /* Adjust the size according to your preference */
     border-radius: 50%;
     overflow: hidden;
-    border: solid 2px #cd76fc;
+    border: solid 2px #1473e6;
     margin-right: 20px; /* Moved the margin rule here */
 }
 
@@ -16,7 +16,7 @@
 
 /*Profile Image styling END*/
 .history {
-  background-color: #fe9401;
+  
 }
 
 
@@ -36,7 +36,7 @@
 /*Section 2 styling ENDS*/
 
 .languages {
-  background: linear-gradient(135deg,#d8447e,#d95046,#df7238);
+  background-color: #1473e6;
   color: white;
 }
 
