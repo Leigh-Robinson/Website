@@ -1,11 +1,16 @@
 /*Footer*/
 footer {
-    display: flex;
     padding: 1rem;
-    background-color: #fafafa;
     justify-content: center;
     text-align: center;
-    white-space: nowrap;
+    border-top: 1px solid #CDCDCD;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: grey;
+  }
+
+  footer p {
+    font-size: 12px;
   }
 /*Footer End*/
 

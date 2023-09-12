@@ -1,9 +1,17 @@
 /*This is for styling for every page*/
+@font-face {
+  font-family: 'Helvetica Neue Regular';
+  src: url('/fonts/HelveticaNeueRegular.woff2') format('woff2'),
+       url('/fonts/HelveticaNeueRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   padding: 0;
   margin: 0;
-  font-family: figtree, serif;
+  font-family: 'helvetica Neue Regular', Arial, sans-serif;
+  background-color: #f2f2f1;
 }
 
 main {
@@ -26,10 +34,11 @@ h3 {
 }
 
 p {
- font-size: 1.2rem;
+ font-size: 1.4em;
  padding-left: 1rem;
  padding-top: 0.5rem;
  padding-bottom: 0.5rem;
+ margin: 1rem;
 }
 
 /*styling for buttons*/
@@ -40,7 +49,7 @@ p {
   border-radius: 30px;
   margin: 20px;
   color: white;
-  background-color: #1473e6;
+  background-color: #887a73;
   font-size: 1rem;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -50,11 +59,10 @@ p {
 
 .button1:hover {
   color: white;
-  background-color: #0d4ca2;
+  background-color: #5F5551;
+  text-decoration: none;
 }
 /*styling for buttons END*/
-
-
 
 /*Responsive design settings*/
 * {
@@ -107,4 +115,11 @@ p {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+}
+
+/* Hide items with the class "responsive" on screens smaller than 768 pixels */
+@media (max-width: 767px) {
+  .mobile-hide {
+      display: none;
+  }
 }

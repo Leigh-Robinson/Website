@@ -1,32 +1,59 @@
-.sub-heading {
-  font-family: figtree;
-  font-size: 32px;
-  color: #323b4a;
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
-.collab {
-  text-align: center;
+.hero-section {
+  position: relative; /* Change this back to relative */
+  width: 100%; /* Full width */
+  height: 100vh; /* 100% of the viewport height */
+  overflow: hidden; /* Hide any overflow */
 }
 
-.coding {
+.hero-section video {
+  display: block;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  object-fit: cover; /* Cover the entire container without distortion */
+}
+
+/* Rest of your existing styles remain unchanged */
+
+.overlay-text {
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+  background-color: transparent;
+  text-align: left;
+  z-index: 1;
+}
+
+.text-line {
+  padding: 1.5vw;
+  font-size: 4.5vw;
+  color: #f2f2f1;
+  background-color: rgba(136, 122, 115, 0.9);
+}
+
+.author {
+  font-size: 1.5vh;
+}
+
+#zen-img {
   max-width: 100%;
+  height: auto;
 }
 
-/*Arborvita*/
-.arborvita {
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:right;
+  padding: 20px;
+}
+
+#zen-img {
   max-width: 100%;
+  height: auto;
 }
 
-.beauty {
-  max-width: 100%;
-}
-
-a {
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
-
-a:hover {
-  text-decoration: underline;
-}
