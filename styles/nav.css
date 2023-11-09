@@ -2,12 +2,10 @@
 .topnav {
   overflow: hidden;
   text-align: right; /* Align the content to the right */
-  background-color: #f2f2f1;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  background-color: #f2f2f1;
   display: inline-block; /* Change from 'block' to 'inline-block' to place links horizontally */
   color: #2c2c2c;
 

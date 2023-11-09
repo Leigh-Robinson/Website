@@ -1,3 +1,43 @@
-.coding-vid {
-    max-width: 100%;
+.profile-image {
+    text-align: center;
+}
+
+
+
+.section2 {
+    background-color: #f0f3f6;
+    border: 10px solid white;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.devtools {
+    background-color: #3180fc;
+    color: white;
+    border: 10px solid white;
+}
+
+.languages-icons {
+    font-size: 50px;
+    color: #3180fc;
+}
+
+.devtools-icons {
+    font-size: 50px;
+    color: white;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.vscode img {
+    height: 50px;
+    width: auto;
 }

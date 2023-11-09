@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/about.css">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- custom fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,41 +48,71 @@
   </div> 
     <main>
       <section class="section1">
-        <div class="col-6 section1-text">
-          <h1>I love what I do.</h1>
-          <p>I have been building websites for over 20 years.</p>
+        <article class="col-6">
+          <div class="sub-heading-text"><strong>I love what I do.</strong></div>
+          <h1>I have been building websites for over 20 years.</h1>
           <p>The internet is constantly changing and moving forward. There's always more to learn and discover and that is what I love about building websites.</p>
-        </div>
-        <div class="col-6 section1-image">
-          <img class="profile-image" src="img/leigh-robinson-bw.jpg" alt="Leigh Robinson Profile Image">
-        </div>
+          <p>One of the first sites I made was an E-commerce site and this was around 2001.</p>
+          <p>I have built countless personal and business sites using Content Management Systems (CMS) and coding by hand.</p>
+        </article>
+        <article class="profile-image col-6">
+          <img src="img/leigh-robinson-bw.jpg" alt="Leigh Robinson Profile Image">
+        </article>
       </section>
       <section class="section2">
-        <article class="col-6 mobile-hide">
-          <video class="coding-vid" autoplay loop muted>
-            <source src="/mov/coding.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </article>
-        <article class="col-6">
+        <article class="section2 col-12">
           <h1>Languages that I speak</h1>
-          <p>HTML, CSS, JavaScript, React.</p>
-        </article> 
-      </section>
-      <section>
-        <div class="col-6 devtools">
-          <h1>Developer tools</h1>
-          <p>Visual Studio Code, Github, Shopify, WordPress, PhotoShop.</p>
-        </div>
-       
-      </section>
-      <section>
-        <article class="col-12 other-interests">
-          <h1>Other interests</h1>
-          <p>I have a passion for woodworking. I've made spoons, drinking cups, archery bows, rowing boat paddles and more. This grew out of my interest in Bushcraft. After first seeing Ray Mears on T.V. I fell in love with the outdoors and bushcraft.</p>
-          <p>I also enjoy writing books and have several self published books that can be found on Amazon.</p>
-          <p>I also have two children and they keep me very busy.</p>
+          <p>I can build websites by hand-coding them. I write in HMTL, CSS, JavaScript and React.</p>
+          <p>Being able to write code allows me to build fully custom websites that rank high in search engine results.</p>
+          <div class="languages">
+            <div class="html">
+              <i class="languages-icons fa-brands fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="css">
+              <i class="languages-icons fa-brands fa-css3"></i>
+              <p>CSS</p>
+            </div>
+            <div class="javascript">
+              <i class="languages-icons fa-brands fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="react">
+              <i class="languages-icons fa-brands fa-react"></i>
+              <p>React</p>
+            </div>
+          </div>
         </article>
+      </section>
+      <section>
+        <article class="devtools col-12">
+          <h1>Developer tools</h1>
+          <p>I write code using VS Code as my IDE. 
+             Here's a link to my <a href="https://github.com/Leigh-Robinson">Github profile.</a>
+             I build Content Management Websites (CMS) using Shopify and WordPress.
+          </p>
+          <p>
+            
+          </p>
+          <div class="tools">
+            <div class="vscode">
+              <img src="icons/vs-code.svg">
+              <p>VS Code</p>
+            </div>
+            <div class="github">
+              <i class="devtools-icons fa-brands fa-github"></i>
+              <p>Github</p>
+            </div>
+            <div class="shopif">
+              <i class="devtools-icons fa-brands fa-shopify"></i>
+              <p>Shopify</p>
+            </div>
+            <div class="react">
+              <i class="devtools-icons fa-brands fa-wordpress"></i>
+              <p>WordPress</p>
+            </div>
+          </div>
+        </article> 
       </section>
     </main>
     <footer class="col-12">

@@ -26,12 +26,15 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/services.css">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- custom fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree" rel="stylesheet">
+
+    <!-- Font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     
 </head>
@@ -48,16 +51,39 @@
   </div> 
     <main>
       <section>
-        <h1>Website Design and Development services in Cambridge</h1>
-      </section>
-      <section class="services-hero">
-        <video autoplay loop muted playsinline>
-          <source src="/mov/tree.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <article class="col-7">
+          <h1 class="banner">Website Design and Development services in Cambridge</h1>
+          <p class="banner-paragraph">We build websites using Content Management Systems and hand-coding websites.</p>
+        </article>
+        <article class="col-5">
+          <img src="./img/services.jpg" class="services-info" alt="">
+        </article>
       </section>
       <section>
-        <p>Hiring a website designer can be a worry. Here's a quick guide on how to choose a web designer.</p>
+        <article class="cms col-6">
+          <h2 class="cms-hcs-heading"><i class="fa-solid fa-gear fa-2xl" style="color: #3281fb; padding: 10px;"></i>Content Management Systems.</h2>
+          <ul>
+            <h3>Benefits</h3>
+            <li>You don't need to be able to code to use them. This is really useful if you intend to update the website yourself.</li>
+            <li>If you want to be able to update the site regularly with new content, CMS are really easy to use.</li>
+            <h3>Disadvantages</h3>
+            <li>The downside is they can be 'bloated' with code. Slowing the website down.</li>
+            <li>Search Engine Optimisation can be challenging as you can't get to the code easily and will need to install plugins. CMS and the plugins will need updating regularly.</li>
+          </ul> 
+        </article>
+        <article class="hand-coded col-6">
+          <h2 class="cms-hcs-heading"><i class="fa-solid fa-code fa-2xl" style="color: #3281fb; padding: 10px;"></i>Hand-coded sites.</h2>
+          <ul>
+            <h3>Benefits</h3>
+            <li>You don't need to be able to code to use them.</li>
+            <li>If you want to be able to update the site regularly with new content, CMS are really easy to use.</li>
+            <li>The downside is they can be 'bloated' with code. Slowing the website down.</li>
+            <h3>Disadvantages</h3>
+            <li>Search Engine Optimisation can be challenging as you can't get to the code easily and will need to install plugins. CMS and the plugins will need updating regularly.</li>
+          </ul> 
+        </article>
+      </section>
+      <section class="col-12">
         <article class="new-website col-12">
           <h2>Buy a new website</h2>
           <p>Choose from our service packages below or contact me for a custom quote.</p>
@@ -65,9 +91,9 @@
           <table id="services-table">
             <tr>
               <th></th>
-              <th class="services basic">Basic<br>£195</th>
-              <th class="services standard">Standard<br>£395</th>
-              <th class="services premium">Premium<br>£695</th>
+              <th class="services basic">Basic<br>£295</th>
+              <th class="services standard">Standard<br>£495</th>
+              <th class="services premium">Premium<br>£895</th>
             </tr>
             <tr>
               <th>Pages</th>
@@ -77,39 +103,39 @@
             </tr>
             <tr>
               <th>Responsive Design</th>
-              <td>✔️</td>
-              <td>✔️</td>
-              <td>✔️</td>
+              <td><i class="check fa-solid fa-check"></i></td>
+              <td><i class="check fa-solid fa-check"></td>
+              <td><i class="check fa-solid fa-check"></td>
             </tr>
             <tr>
               <th>Contact Form</th>
-              <td>✔️</td>
-              <td>✔️</td>
-              <td>✔️</td>
+              <td><i class="check fa-solid fa-check"></td>
+              <td><i class="check fa-solid fa-check"></td>
+              <td><i class="check fa-solid fa-check"></td>
             </tr>
             <tr>
               <th>SSL Secure</th>
-              <td>✔️</td>
-              <td>✔️</td>
-              <td>✔️</td>
+              <td><i class="check fa-solid fa-check"></td>
+              <td><i class="check fa-solid fa-check"></td>
+              <td><i class="check fa-solid fa-check"></td>
             </tr>
             <tr>
               <th>Basic SEO</th>
-              <td>✔️</td>
-              <td>✔️</td>
-              <td>✔️</td>
+              <td><i class="check fa-solid fa-check"></td>
+              <td><i class="check fa-solid fa-check"></td>
+              <td><i class="check fa-solid fa-check"></td>
             </tr>
             <tr>
               <th>Content Upload</th>
               <td></td>
-              <td>✔️</td>
-              <td>✔️</td>
+              <td><i class="check fa-solid fa-check"></td>
+              <td><i class="check fa-solid fa-check"></td>
             </tr>
             <tr>
               <th>E-commerce</th>
               <td></td>
               <td></td>
-              <td>✔️</td>
+              <td><i class="check fa-solid fa-check"></td>
             </tr>
             <tr>
               <th>Products</th>
@@ -121,7 +147,7 @@
               <th>Payment Processing</th>
               <td></td>
               <td></td>
-              <td>✔️</td>
+              <td><i class="check fa-solid fa-check"></td>
             </tr>
             <tr>
               <th>Revisions</th>
@@ -137,51 +163,41 @@
             </tr>
           </table>
           <!--Table of services END-->
+          <p>*These prices are for CMS websites built with WordPress or Shopify.</p>
+          <p>If you are interested in a hand-coded website please contact us.</p>
         </article>
       </section>
-      <section class="update-site">
+      <section class="update-site col-12">
         <article>
-          <h2>Improve and update and existing website</h2>
-          <p>You might already know what you need but here are some tools to get an insight into you website's current performance.</p>
-          <p><a href="https://pagespeed.web.dev/">PageSpeed Insights</a> by Google analysis the user experience of your website.</p>
-          <p><a href="https://validator.w3.org/">W3C Markup Validation Service</a> checks the validity (grammar, vocabulary and syntax) of your website code.</p>
+          <h2><i class="fa-solid fa-wrench fa-2xl" style="color: #3281fb; padding: 10px;"></i>Improve and update an existing website</h2>
+          <p>Revitalise your existing website with our comprehensive improvement and update services. 
+            We enhance functionality, refresh layouts, and modernise content to keep your site current and 
+            competitive. Our strategic updates are tailored to meet evolving market trends, ensuring your 
+            website not only looks great but also performs exceptionally to captivate your audience.</p>
         </article>
       </section>
-      <section>
-        <h1>Search Engine Optimisation</h1>
-        <p>
-          We recognise that a powerful online presence begins with optimal on-page SEO. Our 
-          comprehensive on-page SEO services are meticulously crafted to enhance your website's 
-          visibility in search engine rankings. By focusing on keyword optimisation, meta tags, 
-          URL structure, internal linking, and high-quality content, we ensure that every page 
-          of your site is search engine friendly and aligned with the latest SEO best practices.
+      <section class="seo col-12">
+        <h1><i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #3281fb; padding: 10px;"></i>Search Engine Optimisation</h1>
+        <p>Boost your website's visibility with our targeted SEO services. We optimise your content and structure
+          for top search engine rankings, ensuring you attract and retain your ideal audience. Trust us to deliver
+          an SEO strategy that increases traffic and growth.
         </p>
-        <p>
-          Partner with us to unlock the full potential of your website, drive organic traffic, 
-          and foster meaningful engagement with your audience. Let's build a robust digital 
-          foundation together, setting your brand up for sustained success.
-        </p>
-      </section>
-      <section>
-        <h1>Accessibility Audits and Improvements</h1>
-        <p>Digital accessibility is not just a legal obligation but a fundamental right for 
-           every user. Our specialised accessibility audits and improvement services are designed 
-           to ensure that your website or application complies with international standards such as WCAG 2.1,
-           embracing inclusivity for all visitors, including those with disabilities.
-        </p>
-        <p>
-          With a thorough evaluation of your site's current accessibility level, we identify areas for enhancement
-          and implement tailored solutions that not only meet legal requirements but also enhance user experience.
-          Partner with us to create an online presence that's open, engaging, and accessible to all.
-        </p>
+        <p><a href="/search-engine-optimisation.html">Learn more about Search Engine Optimisation</a> or contact us to discuss your needs.</p>
       </section>
     </main>
-    <footer>
-      <section>
-        <p>Leigh Robinson Cambridge Website Design and Development</p>
+    <footer class="col-12">
+      <p>Leigh Robinson Cambridge Website Design and Development</p>
+      <p>leighspost@hotmail.com</p>
+      <section class="col-6">
+        <p>24 Scholars Court, Harrison Drive, Cambridge, CB2 8EF</p>
       </section>
-      <section>
-        <p>leighspost@hotmail.com</p>
+      <section class="col-6">
+        <i class="fa-brands fa-facebook fa-2xl" style="color: #dbdfe6;"></i>
+        <i class="fa-brands fa-square-x-twitter fa-2xl" style="color: #dbdfe6;"></i>
+        <i class="fa-brands fa-github fa-2xl" style="color: #dbdfe6;"></i>
+        <i class="fa-brands fa-linkedin fa-2xl" style="color: #dbdfe6;"></i>
+        
+
       </section>
     </footer>
     <!-- JS file -->

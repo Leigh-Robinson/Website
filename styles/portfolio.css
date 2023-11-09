@@ -1,0 +1,41 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: pink;
+  justify-content: center;
+
+.card {
+  flex: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding: 10px;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: pink;
+}
+
+/* Mobile view: single card per row */
+@media (max-width: 767px) {
+  .card {
+      max-width: 100%; 
+      margin: 0.3rem 0; /* Reset horizontal margins */
+  }
+}
+}

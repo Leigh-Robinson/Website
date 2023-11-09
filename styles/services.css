@@ -1,32 +1,65 @@
-.services-hero video {
+ .banner {
+  font-size: 2.8rem;
+  color: #3281fb;
+ }
+
+ .banner-paragraph {
+  font-size: 2rem;
+ }
+
+ .services-info {
+  width: 90%;
   display: block;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  object-fit: cover; /* Cover the entire container without distortion */
-}
+  margin: 0 auto;
+ }
+
+ .cms-hcs-heading {
+  font-size: 1.5rem;
+  color: #3281fb;
+ }
+ 
+ .cms {
+  background-color: #f0f3f6;
+  border: solid 3px;
+  border-color: white;
+ }
+
+ .hand-coded {
+  background-color: #f0f3f6;
+  border: solid 3px;
+  border-color: white;
+ }
+ 
+ ul {
+  padding: 1rem;
+ }
+
+ li {
+  padding: 0.3rem;
+ }
  
  .new-website {
    padding: 1rem;
    text-align: center;
    justify-content: center;
    position: relative;
+   background-color: #3281fb;
  }
 
- .new-website::before {
-  content: "";
-  position: absolute;
-  left: 15%; /* Center the border */
-  right: 15%;
-  top: 0; /* Position at the top */
-  border-top: 2px solid #2c2c2c; /* Border styling */
-}
+ .new-website h2 {
+  color: white;
+ }
+
+ .new-website p {
+  color: white;
+ }
  
  /*Services table*/
  table {
     display: inline-block;
     padding: 0.1rem;
     border: 1px solid none;
-    background-color: #705244;
+    background-color: white;
     border-radius: 5px;
   }
   
@@ -36,19 +69,50 @@
   }
 
   .basic {
-    background-color: #CD7F32;
+    background-color: #3281fb;
   }
 
   .standard {
-    background-color: #aaa9ad;
+    background-color: #3281fb;
   }
 
   .premium {
-    background-color: #D4AF37;
+    background-color: #3281fb;
+  }
+
+  .basic, .standard, .premium {
+    color: white;
   }
   
   th, td {
     padding: 10px;
     margin: 5px;
   }
+
+  th {
+    color: black;
+  }
+
+  tr th {
+    color: black;
+  }
+
+  td {
+    color: black;
+  }
+
+  .check {
+    color: black;
+  }
+
   /*Services table END*/
+
+ .update-site {
+  background-color: #f0f3f6;
+  border: 10px solid white;
+ }
+
+ .seo {
+  background-color: #f0f3f6;
+  border: 10px solid white;
+ }
