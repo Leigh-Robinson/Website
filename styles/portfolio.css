@@ -1,8 +1,10 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: pink;
   justify-content: center;
+  background-color: #3281fb;
+  
+}
 
 .card {
   flex: wrap;
@@ -11,6 +13,7 @@
   border-radius: 5px;
   margin: 0.5rem;
   padding: 10px;
+  background-color: white;
 }
 
 .card img {
@@ -28,7 +31,6 @@ img {
 
 .container {
   padding: 2px 16px;
-  background-color: pink;
 }
 
 /* Mobile view: single card per row */
@@ -37,5 +39,4 @@ img {
       max-width: 100%; 
       margin: 0.3rem 0; /* Reset horizontal margins */
   }
-}
 }
